@@ -25,7 +25,6 @@ public class SaveableEditor
         File.WriteAllText(filePath, jsonString);
     }
     #endregion
-
     #region Public method
     /// <summary>
     /// Save editor property class
