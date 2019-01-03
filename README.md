@@ -1,5 +1,6 @@
 # UnitySaveableEditor
 Save custom data into json file inside Unity project folder, one editor can have multiple section as your desire by giving it a name.
+Save data will be locate in Application.dataPath+"../SavableEditorData"
 
 # Installing
 Download [package](https://github.com/sumatakso/UnitySaveableEditor/blob/master/SaveableEditor.unitypackage) here then import to your project or download [this](https://github.com/sumatakso/UnitySaveableEditor/blob/master/Assets/SaveableEditor/Editor/SaveableEditor.cs) class and place wherever you want.
