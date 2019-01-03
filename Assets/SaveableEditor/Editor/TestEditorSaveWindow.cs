@@ -14,9 +14,10 @@ public class TestEditorSaveWindow : EditorWindow
         someString = "Some string to save",
         isToggle = false
     };
+
     string saveSection = "MAIN";
 
-    [MenuItem("Savable Example/Window")]
+    [MenuItem("Saveable Example/Window")]
     static void OpenWindow()
     {
         GetWindow<TestEditorSaveWindow>();
